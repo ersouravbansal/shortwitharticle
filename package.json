@@ -5,7 +5,7 @@
   "sideEffects": false,
   "type": "module",
   "scripts": {
-    "build": "env-cmd -f .env.local remix vite:build",
+    "build": "env-cmd -f .env.stage remix vite:build",
     "dev": "env-cmd -f .env.local remix vite:dev --manual",
     "start": "env-cmd -f .env.local remix-serve ./build/server/index.js",
     "lint": "eslint --ignore-path .gitignore --cache --cache-location ./node_modules/.cache/eslint .",
